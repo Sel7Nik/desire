@@ -174,7 +174,10 @@
   width: 100%;
   background-color: #fff;
   padding-top: 40px;
+  box-shadow: -2px 3px 17px 0px #000;
+  transition: all 0.5s;
   &.rightside-menu--close{
+    // display: none;
     transform: translateX(+100%);
   }
   &__close{
