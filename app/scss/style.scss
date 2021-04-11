@@ -325,7 +325,7 @@
     }
   }
   &__image{
-    min-height: 350px;
+    max-height: 350px;
     object-fit: cover;
   }
   &__info{
